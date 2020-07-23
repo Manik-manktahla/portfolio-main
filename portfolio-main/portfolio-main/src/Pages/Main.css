@@ -1,0 +1,57 @@
+.main-header {
+  background-color: #282c3496;
+  /* z-index: 10; */
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  color: white;
+  font-size: calc(15px + 2vmin);
+  padding-top: 450px;
+  font-family: "Verdana", "Times New Roman", Times, serif;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-transparent {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.70),
+    #111
+  );
+}
+
+.main-button {
+  display: flex;
+  align-items: center;
+  font-family: "Verdana", "Times New Roman", Times, serif;
+  transition: all 0.5s;
+  font-size: 15pt;
+}
+
+.main-intro{
+  margin: 0px;
+}
+
+.main-role{
+  margin-top: 0px;
+}
+
+.main__button{
+}
+
+.main__buttonText{
+  padding-right: 10px;
+  margin: 0px;
+}

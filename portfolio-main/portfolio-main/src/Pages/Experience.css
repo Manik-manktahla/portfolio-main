@@ -1,0 +1,15 @@
+.experience__subcontainer{
+  display: inline-flex;
+  max-width: 80vw;
+}
+
+.experience__container{
+  padding-top: 70px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .experience__subcontainer{
+    width: 100%;
+  }
+}

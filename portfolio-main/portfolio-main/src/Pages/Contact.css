@@ -1,0 +1,51 @@
+.contact__container{
+  background-color: #252934;
+  transition: 0.3s;
+}
+
+.contact__header{
+  font-size: 30pt;
+  font-weight: 400;
+  font-family: "Verdana", "Times New Roman", Times, serif;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 70px;
+}
+
+.contact__header-divider{
+  width: 57px;
+  height: 2px;
+  background-color: white;
+}
+
+.contact__question{
+  font: 16px;
+  color: rgb(84, 202, 255)
+}
+
+.contact__bottom{
+  background: linear-gradient( #252934 5%, #000000f7 50%);
+  padding-bottom: 50px
+}
+
+.contact__upIcon{
+  background-color: rgb(227, 27, 109);
+  color: white;
+  transform: rotate(-90deg);
+  width: 1.5em !important;
+  height: 1.5em !important;
+  cursor: pointer ;
+}
+
+.contact__icon{
+  color: white !important;
+}
+
+.contact__icon:hover{
+  background-color: #00a1a7 !important;
+  border: unset;
+}
+
+.contact__share{
+  padding-top: 25px;
+}

@@ -1,0 +1,35 @@
+.bar {
+  width: 38vw;
+  background-color: #eee;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.bar__fill {
+  height: 30px;
+  background-color: #00a1a7;
+  transition: width 0.5sec;
+}
+
+.bar__name {
+  width: 100px;
+  background-color: #04c2c9;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5px;
+  color: white;
+}
+
+.bar__per {
+  padding-right: 5px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .bar{
+    width: 100%;
+  }
+}

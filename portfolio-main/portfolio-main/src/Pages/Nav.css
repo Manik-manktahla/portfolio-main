@@ -1,0 +1,38 @@
+.nav-items{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  background-color: #252934;
+  font-size: 20px;
+  color: white;
+  border-bottom: 1mm solid rgb(84, 202, 255);
+}
+
+
+.nav-item{
+  padding: 18px 30px;
+  font-weight: 250;
+  transition: color 0.5s
+}
+
+.nav-item:hover{
+  color: #e31b6d;
+  /* color: white; */
+}
+
+.nav-fixed{
+  position:fixed;
+  left: 0;
+  top:0;
+  bottom: inherit;
+  width: 100%;
+  background-color: #252934eb;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .nav-items{
+    display: none;
+  }
+}

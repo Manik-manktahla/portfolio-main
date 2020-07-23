@@ -1,0 +1,9 @@
+.skills__container{
+  width: 40vw;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .skills__container{
+    width: 80vw;
+  }
+}

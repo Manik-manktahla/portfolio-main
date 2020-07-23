@@ -1,0 +1,39 @@
+.about__container{
+  vertical-align: center;
+  padding-top: 70px;
+}
+
+.about__header {
+  font-size: 30pt;
+  font-weight: 400;
+  font-family: "Verdana", "Times New Roman", Times, serif;
+  color: #444649;
+  margin-bottom: 0px;
+}
+
+.about__header-divider{
+  width: 57px;
+  height: 2px;
+  background-color: #444649;
+}
+
+.about__details{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.about__subContainer{
+  width: 80vw;
+  display: inline-block;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .about__details{
+    flex-direction: column;
+  }
+}
+

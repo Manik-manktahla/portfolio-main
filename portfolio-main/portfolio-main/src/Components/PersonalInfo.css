@@ -1,0 +1,23 @@
+.personal-info__photo{
+  vertical-align: middle;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.personal-info__container{
+  vertical-align: middle;
+  max-width: 500px;
+  padding-left: 25px;
+}
+
+.personal-info__contact{
+  color: #009ada;
+  cursor: pointer;
+}
+
+.info__share:hover{
+  background-color: rgb(227, 27, 109) !important;
+  border: unset !important;
+  color: white;
+}

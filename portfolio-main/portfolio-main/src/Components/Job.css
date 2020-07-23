@@ -1,0 +1,108 @@
+.job__container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.job__main {
+  text-align: initial;
+  min-width: 18%;
+}
+
+.job__description {
+  text-align: initial;
+  padding-left: 30px;
+}
+
+.responsibilities {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.learning {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.job__description-info {
+  display: inline-flex;
+  width: 100%;
+}
+
+.job__description-info-container {
+  text-align: center;
+}
+
+.learning__container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.responsibilities__container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.value {
+  padding-left: 10px;
+  width: 100%;
+  margin: 0px;
+}
+
+.main__role {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+
+.main__company-name{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+
+.main__location{
+  color:rgb(227, 27, 109)
+}
+
+.main__timeline{
+  color: rgb(99, 96, 97);
+}
+
+@media only screen and (max-device-width: 480px) {
+  .job__container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .job__description-info {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .job__description {
+    padding-left: 0px;
+  }
+  .responsibilities__container{
+    width: 100%;
+  }
+  .learning__container {
+    width: 100%;
+  }
+}

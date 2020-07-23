@@ -1,0 +1,44 @@
+.contact-form {
+  display: inline-flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.contact-inputs {
+  background: #1e242c;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: 3px;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.contact-submit-button {
+  background: transparent;
+  color: #fff;
+  /* float: right; */
+  font-size: 12pt;
+  margin: 5px 0 0 0;
+  outline: 0;
+  padding: 10px 30px;
+  width: 36%;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.done{
+  background-color: teal;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .contact-form{
+    width: 80%;
+  }
+}
+
