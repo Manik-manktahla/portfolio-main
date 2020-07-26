@@ -7,7 +7,7 @@ const data = {
     links : {
       linkedIn: "https://www.linkedin.com/in/manik-manktahla-366874114/",
       fb: "",
-      instagram: "das",
+      instagram: "https://www.instagram.com/manik_manktahla/",
       twitter: "",
       email: "manikmanktahla@gmail.com",
       phone_number: "8283818479",
