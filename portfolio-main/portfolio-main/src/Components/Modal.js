@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
+// import Modal from "react-modal";
 import Slider from "./Slider";
 import Button from "./Button";
 import Divider from "./Divider";
@@ -10,6 +11,19 @@ import TransitEnterexitIcon from "@material-ui/icons/TransitEnterexit";
 import CloseIcon from "@material-ui/icons/Close";
 import IconButton from "@material-ui/core/IconButton";
 import "./Modal.css";
+
+const customStyles = {
+  content : {
+    top                   : '50%',
+    left                  : '50%',
+    right                 : 'auto',
+    bottom                : 'auto',
+    marginRight           : '-50%',
+    transform             : 'translate(-50%, -50%)'
+  }
+};
+
+// Modal.setAppElement('#root');
 
 function getModalStyle() {
   const top = 50;
@@ -95,6 +109,17 @@ const SimpleModal = (props) => {
   return (
     <div>
       <Button onClick={handleOpen}>LEARN MORE</Button>
+      {/* <Modal
+          isOpen={open}
+          // onAfterOpen={afterOpenModal}
+          onRequestClose={handleClose}
+          style={customStyles}
+          contentLabel="Example Modal"
+          className="modal__main"
+        >
+ 
+        {body}
+        </Modal> */}
       <Modal
         open={open}
         onClose={handleClose}
