@@ -10,6 +10,7 @@ import Contact from "./Pages/Contact";
 import data from "./data";
 
 import "./App.css";
+import Download from "./Components/Download";
 
 const Description = (props) => {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Projects />
       <Experience experience={data.Experience} />
       <Contact links = {data.About.links}/>
+      <Download/>
     </div>
   );
 }

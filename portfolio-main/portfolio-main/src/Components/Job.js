@@ -36,7 +36,7 @@ const Learning = (props) => {
 const Responsibilities = (props) => {
   return (
     <div className="responsibilities__container">
-      <h3>Responsibilities</h3>
+      <h3>Learnings</h3>
       {props.responsibilities.map((value) => {
         return (
           <div>

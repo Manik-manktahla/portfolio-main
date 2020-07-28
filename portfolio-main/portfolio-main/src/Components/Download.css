@@ -1,0 +1,25 @@
+.download{
+  position: fixed !important;
+  bottom: 5vh;
+  right: 2vh;
+  background-color:#444649 !important;
+  border-radius: 10px !important;
+  font-size: 15px !important;
+  padding: 5px 10px !important;
+  color: white !important;
+}
+
+.download:hover {
+  background-color: rgb(4, 194, 201)  !important;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .download__text{
+   display: none;
+  }
+
+  .download{
+    padding: 10px !important;
+  }
+}
