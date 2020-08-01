@@ -51,15 +51,17 @@ const Projects = (props) => {
             image={Youtube}
             project_name="Youtube Clone"
             project_skills="ReactJS / Firebase"
-            project_description="Build a youtube website clone. Used React-Router to add routing functionality"
+            project_description="Build a youtube website clone. Used React-Router to add routing functionality. Used material-ui library for icons and a few other component"
             images={[Youtube1, Youtube2, Youtube3]}
+            live="https://dummy-ytube.web.app/"
           />
           <Project
             image={Tinder}
             project_name="Tinder Clone"
             project_skills="ReactJS / Firebase"
-            project_description="Build a Tinder website clone. Used react-tinder-cards for the swipe functionality"
-            images={[POS1, POS2]}
+            project_description="Build a Tinder website clone. Used react-tinder-cards for the swipe functionality.Used material-ui library for icons and a few other component"
+            images={[Tinder1, Tinder2, Tinder3]}
+            live="https://tinder-dummy.web.app/"
           />
         </div>
         <div className="projects__row">
