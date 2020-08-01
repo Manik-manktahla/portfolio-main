@@ -7,6 +7,8 @@ import netflix_image from "../static/Netflix-dummy.png";
 import inquiry_redesign from "../static/inquiry3.png";
 import fraudSeller from "../static/fraudSeller.png";
 import pos from "../static/POS.png";
+import Youtube from "../static/Youtube.png";
+import Tinder from "../static/Tinder.png";
 import "./Projects.css";
 
 import netflix1 from "../static/Netflix/Screenshot 2020-07-23 at 1.46.44 PM.png";
@@ -21,6 +23,14 @@ import POS2 from "../static/POS/Screenshot 2020-07-23 at 1.50.05 PM.png";
 import inquiry1 from "../static/Inquiry/Screenshot 2020-07-23 at 1.52.00 PM.png";
 import inquiry2 from "../static/Inquiry/Screenshot 2020-07-23 at 1.52.20 PM.png";
 import inquiry3 from "../static/Inquiry/Screenshot 2020-07-23 at 1.52.39 PM.png";
+
+import Youtube1 from "../static/Youtube/Screenshot 2020-08-01 at 2.46.15 PM.png";
+import Youtube2 from "../static/Youtube/Screenshot 2020-08-01 at 2.46.19 PM.png";
+import Youtube3 from "../static/Youtube/Screenshot 2020-08-01 at 2.46.23 PM.png";
+
+import Tinder1 from "../static/Tinder/Screenshot 2020-08-01 at 2.47.51 PM.png";
+import Tinder2 from "../static/Tinder/Screenshot 2020-08-01 at 2.48.10 PM.png";
+import Tinder3 from "../static/Tinder/Screenshot 2020-08-01 at 2.47.55 PM.png";
 
 const Projects = (props) => {
   return (
@@ -38,6 +48,29 @@ const Projects = (props) => {
             live="https://netflix-dummy.web.app/"
           />
           <Project
+            image={Youtube}
+            project_name="Youtube Clone"
+            project_skills="ReactJS / Firebase"
+            project_description="Build a youtube website clone. Used React-Router to add routing functionality"
+            images={[Youtube1, Youtube2, Youtube3]}
+          />
+          <Project
+            image={Tinder}
+            project_name="Tinder Clone"
+            project_skills="ReactJS / Firebase"
+            project_description="Build a Tinder website clone. Used react-tinder-cards for the swipe functionality"
+            images={[POS1, POS2]}
+          />
+        </div>
+        <div className="projects__row">
+          <Project
+            image={pos}
+            project_name="Proof of Shipment"
+            project_skills="Python / ReactJS"
+            project_description="The project involved uploading a shipment tracking slip image and then extracting the tracking number as well as the tracking company from image."
+            images={[POS1, POS2]}
+          />
+          <Project
             image={inquiry_redesign}
             project_name="PayPal Resolution Center"
             project_skills="ReactJS / NodeJS / Ajax"
@@ -50,15 +83,6 @@ const Projects = (props) => {
             project_skills="F0(internal) / NodeJS"
             project_description="The project involved creating a new dispute option in the resolution center of PayPal. It was build to avoid confusion between the already existing dispute options. Experimentation is live now."
             images={[fraud1, fraud2]}
-          />
-        </div>
-        <div className="projects__row">
-          <Project
-            image={pos}
-            project_name="Proof of Shipment"
-            project_skills="Python / ReactJS"
-            project_description="The project involved uploading a shipment tracking slip image and then extracting the tracking number as well as the tracking company from image."
-            images={[POS1, POS2]}
           />
         </div>
       </div>
